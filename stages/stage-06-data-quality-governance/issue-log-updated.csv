@@ -1,0 +1,6 @@
+﻿issue_id,rule_id,test_record,issue_description,priority,status,corrective_action,validation_result,notes
+DQI-001,DQ008,TEST_001,Age was outside the accepted range (-5).,Medium,Closed,Changed the test value to age 30.,No age-range violations detected after correction.,Illustrative test data only; not a real customer correction.
+DQI-002,DQ009,TEST_002,Gender value was not in the approved list (Malee).,Medium,Closed,Changed the test value to Male.,No invalid gender values detected after correction.,Illustrative test data only; not a real customer correction.
+DQI-003,DQ006,TEST_003,Signup date was missing.,Medium,Closed,Added the test date 2024-03-01.,No missing signup dates detected after correction.,Illustrative test data only; the date was added for testing.
+DQI-004,DQ010,TEST_004,Income level was not in the approved list (LOO).,Medium,Closed,Changed the test value to Low.,No invalid income levels detected after correction.,Illustrative test data only; not a real customer correction.
+DQI-005,DQ007,TEST_005,Test record had a customer_id that duplicated an existing ID.,High,Closed,Changed the test record ID to TEST_005.,Duplicate customer ID count is 0 after correction.,Illustrative test data only; no real customer ID was changed.
